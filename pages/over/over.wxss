@@ -1,0 +1,22 @@
+/* pages/over/over.wxss */
+.title {
+  margin-top: 164rpx;
+  font: 48rpx/144rpx "微软雅黑";
+  color: #fff;
+  text-align: center;
+}
+.msg {
+  height: 144rpx;
+  font: 72rpx/144rpx "微软雅黑";
+  color: #fbc466;
+  text-align: center;
+}
+.restart {
+  width: 70%;
+  height: 108rpx;
+  margin: 380rpx auto 0;
+  background: #fcad26;
+  color: #fff;
+  font: 44rpx/108rpx "微软雅黑";
+  border-radius: 10rpx;
+}

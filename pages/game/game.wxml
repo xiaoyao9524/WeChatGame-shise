@@ -1,0 +1,20 @@
+<!--pages/game/game.wxml-->
+<view class="head">
+  <view class="score">得分：<text>{{currentScore}}</text></view>
+  <view class="time">{{timeCount}}</view>
+  <button class="suspend" hover-class="suspend-active" bindtap="suspend">暂停</button>
+</view>
+<view class="game-box">
+<!-- <view class="w2" bindtap="nextCheckpoint"></view> -->
+   <view 
+      wx:for="{{list}}" 
+      class="{{item.currentClass}}" 
+      bindtap="nextCheckpoint" 
+      style="background:{{item.colorText}};"
+      data-flag="{{item.flag}}"
+   >{{item.a}}</view> 
+</view>
+<view class="game-mask" hidden="{{!suspend}}">
+  <text class="msg">游戏暂停</text>
+  <button bindtap="continue" class="btn" hover-class="btn-active">继续游戏</button>
+</view>

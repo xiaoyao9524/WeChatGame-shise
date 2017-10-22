@@ -1,0 +1,8 @@
+/**app.wxss**/
+page {
+  background-color: #f06060;
+}
+button {
+  border-radius: 0;
+  
+}

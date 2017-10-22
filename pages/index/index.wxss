@@ -1,0 +1,26 @@
+/**index.wxss**/
+.start {
+  text-align: center;
+}
+.start .title {
+  margin-top: 128rpx;
+  font: 60rpx/200rpx "微软雅黑";
+  color: #fff;
+  font-weight: 400;
+}
+.start .msg {
+  font: 44rpx/200rpx "微软雅黑";
+  color: #fff;
+  font-weight: 400;
+  opacity: 0.8;
+}
+.start .start-game {
+  width: 60%;
+  background: #FCAD26;
+  color: #fff;
+  margin-top: 220rpx;
+  border-radius: 10rpx;
+}
+.start .start-game-active{
+  background: #f3a51f;
+}

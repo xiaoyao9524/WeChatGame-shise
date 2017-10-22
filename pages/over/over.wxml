@@ -1,0 +1,4 @@
+<!--pages/over/over.wxml-->
+<view class="title">经鉴定，您是:</view>
+<view class="msg">{{msg}}</view>
+<button class="restart" bindtap="restart">重新开始</button>

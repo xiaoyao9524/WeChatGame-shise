@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="start">
+  <view class="title">识色</view>
+  <view class="msg">找出所有色块中颜色不同的一个</view>
+  <button class="start-game" hover-class="start-game-active" bindtap='startGame'>开始游戏</button>
+</view>
